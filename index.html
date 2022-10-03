@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ficha RPG</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <span>
+        <div id="image">
+          <img src="https://avatars.githubusercontent.com/u/60903457?v=4" />
+        </div>
+        <div id="main-attributes">
+            <span id="name">
+              <h2>
+                Nome:
+              </h2>
+              <input class="attributes" type="text" placeholder="Nome do personagem" />
+            </span>
+            <span id="class">
+              <h2>
+                Classe:
+              </h2>
+              <select class="attributes" placeholder="Classe do personagem" />
+                    <option disabled selected value="0"  >-- SELECIONE UMA CLASSE --</option>
+                    <option value="1"> Mago </option>
+                    <option value="2"> Guerreiro </option>
+                    <option value="3"> Arqueiro </option>
+                    <option value="4"> Necromante </option>
+                    <option value="5"> Berserk </option>
+                    <option value="6"> Atirador </option>
+              </select>
+            </span>
+        </div>
+        <div id="secondary-atrributes">
+              <span id="hight">
+                <h2>
+                  Altura
+                </h2>
+                <input class="attributes" type="text" inputmode="numeric" placeholder="Altura do personagem" />
+              </span>
+              <span id="divinity">
+                <h2>
+                Divindade:
+                </h2>
+                <input class="attributes" type="text" placeholder="Divindade do personagem"/>
+              </span>
+        </div>
+      </span>  
+    </header>
+    
+      <main>
+        <ul>
+            <li> 
+              <p id="skill">Habilidade 1</p>
+            </li>
+            <li>
+              <p id="skill">Habilidade 2</p>
+            </li>
+            <li>
+              <p id="skill">Habilidade 3</p>
+            </li>
+          </ul>
+        <div>
+          <p>
+            História
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+            deleniti ea illum pariatur molestiae perferendis sequi odit natus
+            nostrum! Ducimus odio deleniti officiis tempore, error itaque
+            quibusdam nobis aspernatur impedit.
+          </p>
+          <p>
+            Missões
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+            deleniti ea illum pariatur molestiae perferendis sequi odit natus
+            nostrum! Ducimus odio deleniti officiis tempore, error itaque
+            quibusdam nobis aspernatur impedit.
+          </p>
+        </div>
+    </main>
+  </body>
+</html>
